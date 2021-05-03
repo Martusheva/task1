@@ -1,0 +1,600 @@
+Time	0
+a*	a	
+b	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	1
+a*	b	
+a	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	2
+a*	a	
+b	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	3
+a*	b	
+b	b	
+Entropy	0.8112781244591328
+Share opinion A	0.25
+
+Time	4
+a*	b	
+b	b	
+Entropy	0.8112781244591328
+Share opinion A	0.25
+
+Time	5
+a*	a	
+a	a	
+Entropy	0.0
+Share opinion A	1.0
+
+Time	6
+a*	a	
+b	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	7
+a*	a	
+a	b	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	8
+a*	a	
+b	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	9
+a*	b	
+a	a	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	10
+a*	a	
+a	b	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	11
+a*	b	
+a	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	12
+a*	a	
+b	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	13
+a*	b	
+a	a	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	14
+a*	a	
+b	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	15
+a*	b	
+b	b	
+Entropy	0.8112781244591328
+Share opinion A	0.25
+
+Time	16
+a*	a	
+a	b	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	17
+a*	b	
+b	b	
+Entropy	0.8112781244591328
+Share opinion A	0.25
+
+Time	18
+a*	b	
+a	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	19
+a*	a	
+a	a	
+Entropy	0.0
+Share opinion A	1.0
+
+Time	20
+a*	a	
+b	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	21
+a*	b	
+a	a	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	22
+a*	a	
+b	a	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	23
+a*	a	
+b	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	24
+a*	b	
+b	a	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	25
+a*	b	
+b	a	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	26
+a*	a	
+b	a	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	27
+a*	b	
+b	b	
+Entropy	0.8112781244591328
+Share opinion A	0.25
+
+Time	28
+a*	b	
+a	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	29
+a*	a	
+b	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	30
+a*	b	
+a	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	31
+a*	a	
+a	b	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	32
+a*	b	
+b	b	
+Entropy	0.8112781244591328
+Share opinion A	0.25
+
+Time	33
+a*	a	
+a	a	
+Entropy	0.0
+Share opinion A	1.0
+
+Time	34
+a*	a	
+b	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	35
+a*	b	
+a	a	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	36
+a*	a	
+b	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	37
+a*	b	
+b	b	
+Entropy	0.8112781244591328
+Share opinion A	0.25
+
+Time	38
+a*	b	
+a	a	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	39
+a*	a	
+b	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	40
+a*	b	
+b	a	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	41
+a*	a	
+a	b	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	42
+a*	b	
+a	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	43
+a*	a	
+a	b	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	44
+a*	a	
+b	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	45
+a*	a	
+b	a	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	46
+a*	a	
+b	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	47
+a*	b	
+a	a	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	48
+a*	a	
+a	a	
+Entropy	0.0
+Share opinion A	1.0
+
+Time	49
+a*	a	
+b	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	50
+a*	a	
+b	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	51
+a*	b	
+a	a	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	52
+a*	a	
+b	a	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	53
+a*	a	
+b	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	54
+a*	b	
+b	b	
+Entropy	0.8112781244591328
+Share opinion A	0.25
+
+Time	55
+a*	a	
+b	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	56
+a*	a	
+a	b	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	57
+a*	b	
+a	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	58
+a*	a	
+a	b	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	59
+a*	b	
+a	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	60
+a*	a	
+a	b	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	61
+a*	a	
+b	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	62
+a*	a	
+a	b	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	63
+a*	b	
+b	b	
+Entropy	0.8112781244591328
+Share opinion A	0.25
+
+Time	64
+a*	a	
+a	b	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	65
+a*	a	
+b	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	66
+a*	b	
+b	b	
+Entropy	0.8112781244591328
+Share opinion A	0.25
+
+Time	67
+a*	b	
+a	a	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	68
+a*	a	
+b	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	69
+a*	b	
+a	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	70
+a*	a	
+b	a	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	71
+a*	b	
+b	b	
+Entropy	0.8112781244591328
+Share opinion A	0.25
+
+Time	72
+a*	b	
+a	a	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	73
+a*	a	
+b	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	74
+a*	a	
+b	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	75
+a*	b	
+a	a	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	76
+a*	a	
+b	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	77
+a*	b	
+a	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	78
+a*	a	
+a	a	
+Entropy	0.0
+Share opinion A	1.0
+
+Time	79
+a*	a	
+b	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	80
+a*	b	
+a	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	81
+a*	a	
+b	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	82
+a*	a	
+b	a	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	83
+a*	a	
+b	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	84
+a*	a	
+b	a	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	85
+a*	a	
+b	a	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	86
+a*	a	
+b	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	87
+a*	b	
+a	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	88
+a*	a	
+a	b	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	89
+a*	a	
+b	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	90
+a*	a	
+b	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	91
+a*	a	
+b	a	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	92
+a*	b	
+b	a	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	93
+a*	b	
+b	b	
+Entropy	0.8112781244591328
+Share opinion A	0.25
+
+Time	94
+a*	a	
+b	a	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	95
+a*	b	
+b	b	
+Entropy	0.8112781244591328
+Share opinion A	0.25
+
+Time	96
+a*	a	
+a	b	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+
+Time	97
+a*	a	
+b	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	98
+a*	b	
+a	b	
+Entropy	1.0
+Share opinion A	0.5
+
+Time	99
+a*	a	
+a	b	
+Entropy	0.8112781244591328
+Share opinion A	0.75
+

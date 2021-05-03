@@ -1,0 +1,10 @@
+x	2
+y	2
+Count_a	2
+Count_b	2
+Count_Conformists	2
+Count_Nonconformists	2
+Count_Stubborn_A	1
+Count_Stubborn_B	0
+coordinates_stubborn_A	0;0	0;1	1;0	1;1
+cordinates_stubborn_B	1;1	1;0	0;1	0;0
