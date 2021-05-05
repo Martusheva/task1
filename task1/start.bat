@@ -1,2 +1,2 @@
-java -jar CelluarAutomata.jar
+java -jar CellularAutomata.jar
 python graph.py

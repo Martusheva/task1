@@ -8,6 +8,7 @@ public class Field {
 		field = agents;
 	}
 
+	// получение поля мнений
 	public char[][] getField() {
 		char[][] massive = new char[field.length][field[0].length];
 		for (int i = 0; i < field.length; i++) {
@@ -18,6 +19,8 @@ public class Field {
 		return massive;
 	}
 
+	// получение информации о поле с агентами (являются ли они конформистами, какое
+	// у них мнение, являются ли упертыми и метод учета мнений) вывод в консоль
 	public void getDescription() {
 
 		System.out.println("\n" + "conformists/nonconformists");
@@ -43,30 +46,38 @@ public class Field {
 			}
 			System.out.println();
 		}
+		
+		System.out.println("\n" + "crest/rim/fullGrafh");
+		for (int k = 0; k < field.length; k++) {
+			for (int l = 0; l < field[0].length; l++) {
+				System.out.print(field[k][l].getMethod() + "\t");
+			}
+			System.out.println();
+		}
 
 	}
 
+	// учет мнения и вызов метода смены мнения
 	public void computeOpinion() {
 		char[][] opinionField = getField();
 		for (int i = 0; i < opinionField.length; i++) {
 			for (int j = 0; j < opinionField.length; j++) {
 				char crf = field[i][j].getMethod();
 				// System.out.println(""+crf+"\t"+i+"\t"+j);
-				boolean opinionShareA = false;
 				if (crf == 'c') {
-					opinionShareA = field[i][j].cross(opinionField, i, j);
+					Consideration.cross(field[i][j], opinionField, i, j);
 				}
 				if (crf == 'r') {
-					opinionShareA = field[i][j].rim(opinionField, i, j);
+					Consideration.rim(field[i][j], opinionField, i, j);
 				}
 				if (crf == 'f') {
-					opinionShareA = field[i][j].fullGraph(opinionField, i, j);
+					Consideration.fullGraph(field[i][j], opinionField, i, j);
 				}
-				field[i][j].computeOpinion(opinionShareA);
 			}
 		}
 	}
-
+	
+	//записываем в файл поле с мнением агентов, энтропию и долю мнения А
 	public void toFile(FileOutputStream file, int iteration) throws IOException {
 		file.write(("Time\t" + iteration + "\n").getBytes());
 		for (int k = 0; k < field.length; k++) {
@@ -86,7 +97,8 @@ public class Field {
 		file.write(("Entropy\t" + entropy() + "\n").getBytes());
 		file.write(("Share opinion A\t" + getShareA() + "\n\n").getBytes());
 	}
-
+	
+	// рассчитываем долю мнения А
 	public float getShareA() {
 		float n = 0;
 		float a = 0;
@@ -103,7 +115,8 @@ public class Field {
 		float share = a / n;
 		return share;
 	}
-
+	
+	//рассчитываем энтропию
 	public double entropy() {
 		double n = 0;
 		double a = 0;

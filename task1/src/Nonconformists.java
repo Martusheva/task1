@@ -1,3 +1,4 @@
+import java.util.Random;
 
 class Nonconformists extends Agent {
 	public Nonconformists(boolean a, boolean st) {
@@ -14,7 +15,12 @@ class Nonconformists extends Agent {
 	}
 
 	@Override
-	public void computeOpinion(boolean opinionShareA) {
+	public void computeOpinion(int countA, int countB) {
+		int W = countA + countB;
+		Random r = new Random();
+		int D = r.nextInt(W) + 1;
+		//System.out.println("D="+D+"\tW="+W);
+		boolean opinionShareA = D <= countA;
 		if (opinionShareA) {
 			changeOpinion('b');
 		} else {

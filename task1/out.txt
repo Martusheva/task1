@@ -1,600 +1,900 @@
 Time	0
-a*	a	
-b	b	
-Entropy	1.0
-Share opinion A	0.5
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.0
+Share opinion A	1.0
 
 Time	1
-a*	b	
-a	b	
-Entropy	1.0
-Share opinion A	0.5
+b	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.24229218908241482
+Share opinion A	0.96
 
 Time	2
-a*	a	
-b	b	
-Entropy	1.0
-Share opinion A	0.5
+b	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.24229218908241482
+Share opinion A	0.96
 
 Time	3
-a*	b	
-b	b	
-Entropy	0.8112781244591328
-Share opinion A	0.25
+b	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.24229218908241482
+Share opinion A	0.96
 
 Time	4
-a*	b	
-b	b	
-Entropy	0.8112781244591328
-Share opinion A	0.25
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.0
+Share opinion A	1.0
 
 Time	5
-a*	a	
-a	a	
-Entropy	0.0
-Share opinion A	1.0
+b	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.24229218908241482
+Share opinion A	0.96
 
 Time	6
-a*	a	
-b	b	
-Entropy	1.0
-Share opinion A	0.5
+b	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	b	a	
+a	a	a	a	a	
+Entropy	0.4021791902022729
+Share opinion A	0.92
 
 Time	7
-a*	a	
-a	b	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+a	a	a	b	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	b	a	
+Entropy	0.4021791902022729
+Share opinion A	0.92
 
 Time	8
-a*	a	
-b	b	
-Entropy	1.0
-Share opinion A	0.5
+b	a	b	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	b	a	
+Entropy	0.5293608652873644
+Share opinion A	0.88
 
 Time	9
-a*	b	
-a	a	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	b	a	a	
+Entropy	0.24229218908241482
+Share opinion A	0.96
 
 Time	10
-a*	a	
-a	b	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+b	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.24229218908241482
+Share opinion A	0.96
 
 Time	11
-a*	b	
-a	b	
-Entropy	1.0
-Share opinion A	0.5
+a	a	a	a	a	
+b	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.24229218908241482
+Share opinion A	0.96
 
 Time	12
-a*	a	
-b	b	
-Entropy	1.0
-Share opinion A	0.5
+a	a	a	a	a	
+a	b	a	a	a	
+a	b	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.4021791902022729
+Share opinion A	0.92
 
 Time	13
-a*	b	
-a	a	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+b	a	a	a	a	
+a	a	a	a	a	
+a	a	b	a	a	
+b	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.5293608652873644
+Share opinion A	0.88
 
 Time	14
-a*	a	
-b	b	
-Entropy	1.0
-Share opinion A	0.5
+a	b	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	b	a	a	a	
+Entropy	0.4021791902022729
+Share opinion A	0.92
 
 Time	15
-a*	b	
-b	b	
-Entropy	0.8112781244591328
-Share opinion A	0.25
+b	a	a	a	a	
+a	a	a	a	a	
+a	a	a	b	a	
+b	a	b	a	a	
+a	a	a	a	a	
+Entropy	0.6343095546405662
+Share opinion A	0.84
 
 Time	16
-a*	a	
-a	b	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+b	a	a	b	a	
+a	a	a	a	b	
+b	a	b	a	a	
+a	b	b	b	a	
+b	a	a	a	a	
+Entropy	0.9426831892554922
+Share opinion A	0.64
 
 Time	17
-a*	b	
-b	b	
-Entropy	0.8112781244591328
-Share opinion A	0.25
+b	b	b	a	b	
+a	a	a	a	a	
+b	b	b	a	b	
+b	b	a	a	a	
+a	a	a	b	a	
+Entropy	0.9895875212220557
+Share opinion A	0.56
 
 Time	18
-a*	b	
-a	b	
-Entropy	1.0
-Share opinion A	0.5
+b	a	b	a	a	
+a	a	a	a	b	
+a	b	a	a	a	
+b	b	a	a	a	
+b	a	a	a	b	
+Entropy	0.904381457724494
+Share opinion A	0.68
 
 Time	19
-a*	a	
-a	a	
-Entropy	0.0
-Share opinion A	1.0
+b	b	b	b	a	
+b	a	a	a	a	
+a	a	a	b	b	
+b	a	a	a	b	
+a	a	a	a	a	
+Entropy	0.9426831892554922
+Share opinion A	0.64
 
 Time	20
-a*	a	
-b	b	
-Entropy	1.0
-Share opinion A	0.5
+b	a	b	a	a	
+a	a	a	b	b	
+a	a	a	a	b	
+a	a	a	a	a	
+a	b	a	a	b	
+Entropy	0.8554508105601307
+Share opinion A	0.72
 
 Time	21
-a*	b	
-a	a	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+b	b	a	b	a	
+a	a	b	b	a	
+a	a	a	a	a	
+b	a	a	b	a	
+a	a	b	a	a	
+Entropy	0.904381457724494
+Share opinion A	0.68
 
 Time	22
-a*	a	
-b	a	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+a	b	a	a	a	
+b	a	a	b	b	
+b	a	a	a	a	
+a	b	a	a	a	
+a	a	b	a	a	
+Entropy	0.8554508105601307
+Share opinion A	0.72
 
 Time	23
-a*	a	
-b	b	
-Entropy	1.0
-Share opinion A	0.5
+b	a	a	a	b	
+a	a	a	b	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.5293608652873644
+Share opinion A	0.88
 
 Time	24
-a*	b	
-b	a	
-Entropy	1.0
-Share opinion A	0.5
+b	a	a	a	a	
+a	b	a	a	a	
+a	a	a	a	b	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.5293608652873644
+Share opinion A	0.88
 
 Time	25
-a*	b	
-b	a	
-Entropy	1.0
-Share opinion A	0.5
+a	a	a	a	a	
+a	b	a	a	a	
+b	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.4021791902022729
+Share opinion A	0.92
 
 Time	26
-a*	a	
-b	a	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+b	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.24229218908241482
+Share opinion A	0.96
 
 Time	27
-a*	b	
-b	b	
-Entropy	0.8112781244591328
-Share opinion A	0.25
+b	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.24229218908241482
+Share opinion A	0.96
 
 Time	28
-a*	b	
-a	b	
-Entropy	1.0
-Share opinion A	0.5
+a	a	a	a	a	
+a	b	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.24229218908241482
+Share opinion A	0.96
 
 Time	29
-a*	a	
-b	b	
-Entropy	1.0
-Share opinion A	0.5
+b	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.24229218908241482
+Share opinion A	0.96
 
 Time	30
-a*	b	
-a	b	
-Entropy	1.0
-Share opinion A	0.5
+b	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.24229218908241482
+Share opinion A	0.96
 
 Time	31
-a*	a	
-a	b	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.0
+Share opinion A	1.0
 
 Time	32
-a*	b	
-b	b	
-Entropy	0.8112781244591328
-Share opinion A	0.25
+b	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.24229218908241482
+Share opinion A	0.96
 
 Time	33
-a*	a	
-a	a	
-Entropy	0.0
-Share opinion A	1.0
+b	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.24229218908241482
+Share opinion A	0.96
 
 Time	34
-a*	a	
-b	b	
-Entropy	1.0
-Share opinion A	0.5
+a	a	a	a	a	
+a	b	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.24229218908241482
+Share opinion A	0.96
 
 Time	35
-a*	b	
-a	a	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	b	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.24229218908241482
+Share opinion A	0.96
 
 Time	36
-a*	a	
-b	b	
-Entropy	1.0
-Share opinion A	0.5
+b	a	a	a	a	
+a	a	a	b	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.4021791902022729
+Share opinion A	0.92
 
 Time	37
-a*	b	
-b	b	
-Entropy	0.8112781244591328
-Share opinion A	0.25
+b	a	a	a	a	
+a	b	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.4021791902022729
+Share opinion A	0.92
 
 Time	38
-a*	b	
-a	a	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+b	a	a	a	a	
+b	a	a	a	a	
+a	a	a	b	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.5293608652873644
+Share opinion A	0.88
 
 Time	39
-a*	a	
-b	b	
-Entropy	1.0
-Share opinion A	0.5
+b	a	a	a	a	
+b	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.4021791902022729
+Share opinion A	0.92
 
 Time	40
-a*	b	
-b	a	
-Entropy	1.0
-Share opinion A	0.5
+a	a	a	a	a	
+b	b	a	a	a	
+a	a	a	b	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.5293608652873644
+Share opinion A	0.88
 
 Time	41
-a*	a	
-a	b	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+a	b	a	a	a	
+a	a	b	a	a	
+a	b	a	a	a	
+a	a	b	a	a	
+a	a	a	a	a	
+Entropy	0.6343095546405662
+Share opinion A	0.84
 
 Time	42
-a*	b	
-a	b	
-Entropy	1.0
-Share opinion A	0.5
+a	a	a	a	a	
+b	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.24229218908241482
+Share opinion A	0.96
 
 Time	43
-a*	a	
-a	b	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+b	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.24229218908241482
+Share opinion A	0.96
 
 Time	44
-a*	a	
-b	b	
-Entropy	1.0
-Share opinion A	0.5
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.0
+Share opinion A	1.0
 
 Time	45
-a*	a	
-b	a	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+b	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.24229218908241482
+Share opinion A	0.96
 
 Time	46
-a*	a	
-b	b	
-Entropy	1.0
-Share opinion A	0.5
+b	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.24229218908241482
+Share opinion A	0.96
 
 Time	47
-a*	b	
-a	a	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+a	a	a	a	a	
+b	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	b	a	a	a	
+Entropy	0.4021791902022729
+Share opinion A	0.92
 
 Time	48
-a*	a	
-a	a	
-Entropy	0.0
-Share opinion A	1.0
+b	a	a	a	a	
+a	b	a	a	a	
+a	a	a	a	a	
+b	a	b	a	a	
+a	a	a	a	a	
+Entropy	0.6343095546405662
+Share opinion A	0.84
 
 Time	49
-a*	a	
-b	b	
-Entropy	1.0
-Share opinion A	0.5
+b	a	a	b	a	
+a	b	b	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.6343095546405662
+Share opinion A	0.84
 
 Time	50
-a*	a	
-b	b	
-Entropy	1.0
-Share opinion A	0.5
+b	a	b	a	b	
+b	a	a	a	a	
+a	b	a	a	a	
+a	a	a	a	a	
+a	b	a	a	a	
+Entropy	0.7950402793845223
+Share opinion A	0.76
 
 Time	51
-a*	b	
-a	a	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+b	a	a	a	b	
+a	b	a	a	b	
+a	a	a	a	a	
+b	b	a	a	a	
+a	a	b	a	a	
+Entropy	0.8554508105601307
+Share opinion A	0.72
 
 Time	52
-a*	a	
-b	a	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+b	a	a	a	b	
+a	a	a	b	a	
+b	b	a	a	b	
+b	b	a	a	a	
+a	a	a	a	a	
+Entropy	0.904381457724494
+Share opinion A	0.68
 
 Time	53
-a*	a	
-b	b	
-Entropy	1.0
-Share opinion A	0.5
+b	b	a	a	b	
+a	a	a	a	b	
+a	b	a	b	a	
+a	a	b	a	a	
+b	a	a	a	a	
+Entropy	0.904381457724494
+Share opinion A	0.68
 
 Time	54
-a*	b	
-b	b	
-Entropy	0.8112781244591328
-Share opinion A	0.25
+b	b	a	a	a	
+a	a	b	b	a	
+a	a	a	a	a	
+a	b	a	b	a	
+a	b	a	b	a	
+Entropy	0.904381457724494
+Share opinion A	0.68
 
 Time	55
-a*	a	
-b	b	
-Entropy	1.0
-Share opinion A	0.5
+a	b	b	a	a	
+b	b	a	a	a	
+b	a	a	b	b	
+a	a	a	a	b	
+a	a	a	a	a	
+Entropy	0.904381457724494
+Share opinion A	0.68
 
 Time	56
-a*	a	
-a	b	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+b	b	a	b	a	
+b	a	b	b	b	
+b	b	a	a	b	
+a	b	a	a	a	
+b	a	a	a	b	
+Entropy	0.9988455359952018
+Share opinion A	0.48
 
 Time	57
-a*	b	
-a	b	
-Entropy	1.0
-Share opinion A	0.5
+a	a	b	a	b	
+b	b	a	a	b	
+b	a	b	b	a	
+a	a	a	b	a	
+b	a	a	a	b	
+Entropy	0.9895875212220557
+Share opinion A	0.56
 
 Time	58
-a*	a	
-a	b	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+b	b	a	a	a	
+a	b	b	a	a	
+a	b	a	b	a	
+a	a	a	b	a	
+a	a	a	b	a	
+Entropy	0.904381457724494
+Share opinion A	0.68
 
 Time	59
-a*	b	
-a	b	
-Entropy	1.0
-Share opinion A	0.5
+a	b	b	a	a	
+a	b	a	a	a	
+b	b	b	a	a	
+a	a	a	a	b	
+b	b	a	a	b	
+Entropy	0.9709505944546686
+Share opinion A	0.6
 
 Time	60
-a*	a	
-a	b	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+b	a	b	b	a	
+b	b	b	b	a	
+a	b	b	b	b	
+b	a	a	a	b	
+a	a	a	a	a	
+Entropy	0.9988455359952018
+Share opinion A	0.48
 
 Time	61
-a*	a	
-b	b	
-Entropy	1.0
-Share opinion A	0.5
+a	a	a	a	a	
+b	b	a	b	b	
+b	b	a	b	a	
+a	a	a	a	b	
+a	b	a	a	a	
+Entropy	0.9426831892554922
+Share opinion A	0.64
 
 Time	62
-a*	a	
-a	b	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+a	a	a	b	a	
+b	a	a	a	a	
+a	b	a	a	a	
+a	a	b	a	a	
+a	b	a	a	a	
+Entropy	0.7219280948873623
+Share opinion A	0.8
 
 Time	63
-a*	b	
-b	b	
-Entropy	0.8112781244591328
-Share opinion A	0.25
+b	a	b	b	a	
+b	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	b	a	a	
+Entropy	0.7219280948873623
+Share opinion A	0.8
 
 Time	64
-a*	a	
-a	b	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+a	a	a	a	b	
+a	b	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.4021791902022729
+Share opinion A	0.92
 
 Time	65
-a*	a	
-b	b	
-Entropy	1.0
-Share opinion A	0.5
+b	a	a	a	a	
+a	a	a	a	a	
+a	b	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.4021791902022729
+Share opinion A	0.92
 
 Time	66
-a*	b	
-b	b	
-Entropy	0.8112781244591328
-Share opinion A	0.25
+a	a	a	a	a	
+a	a	a	a	a	
+a	b	b	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.4021791902022729
+Share opinion A	0.92
 
 Time	67
-a*	b	
-a	a	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+b	a	a	a	a	
+b	b	a	a	a	
+a	a	b	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.6343095546405662
+Share opinion A	0.84
 
 Time	68
-a*	a	
-b	b	
-Entropy	1.0
-Share opinion A	0.5
+b	a	a	a	a	
+b	b	a	a	a	
+a	a	b	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.6343095546405662
+Share opinion A	0.84
 
 Time	69
-a*	b	
-a	b	
-Entropy	1.0
-Share opinion A	0.5
+b	a	a	b	a	
+a	a	a	a	a	
+a	a	b	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.5293608652873644
+Share opinion A	0.88
 
 Time	70
-a*	a	
-b	a	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+b	a	b	a	a	
+a	a	b	b	a	
+a	b	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.7219280948873623
+Share opinion A	0.8
 
 Time	71
-a*	b	
-b	b	
-Entropy	0.8112781244591328
-Share opinion A	0.25
+b	a	a	a	a	
+b	b	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.5293608652873644
+Share opinion A	0.88
 
 Time	72
-a*	b	
-a	a	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+a	a	a	a	a	
+a	a	a	a	a	
+a	b	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.24229218908241482
+Share opinion A	0.96
 
 Time	73
-a*	a	
-b	b	
-Entropy	1.0
-Share opinion A	0.5
+b	b	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.4021791902022729
+Share opinion A	0.92
 
 Time	74
-a*	a	
-b	b	
-Entropy	1.0
-Share opinion A	0.5
+b	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+b	a	a	a	a	
+Entropy	0.4021791902022729
+Share opinion A	0.92
 
 Time	75
-a*	b	
-a	a	
-Entropy	0.8112781244591328
-Share opinion A	0.75
-
-Time	76
-a*	a	
-b	b	
-Entropy	1.0
-Share opinion A	0.5
-
-Time	77
-a*	b	
-a	b	
-Entropy	1.0
-Share opinion A	0.5
-
-Time	78
-a*	a	
-a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
 Entropy	0.0
 Share opinion A	1.0
 
+Time	76
+b	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.24229218908241482
+Share opinion A	0.96
+
+Time	77
+b	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.24229218908241482
+Share opinion A	0.96
+
+Time	78
+a	a	a	a	a	
+a	b	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+b	a	a	a	a	
+Entropy	0.4021791902022729
+Share opinion A	0.92
+
 Time	79
-a*	a	
-b	b	
-Entropy	1.0
-Share opinion A	0.5
+a	a	a	a	a	
+b	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.24229218908241482
+Share opinion A	0.96
 
 Time	80
-a*	b	
-a	b	
-Entropy	1.0
-Share opinion A	0.5
+b	a	a	a	a	
+b	b	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.5293608652873644
+Share opinion A	0.88
 
 Time	81
-a*	a	
-b	b	
-Entropy	1.0
-Share opinion A	0.5
+b	a	a	a	a	
+a	b	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.4021791902022729
+Share opinion A	0.92
 
 Time	82
-a*	a	
-b	a	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+b	a	a	a	a	
+b	a	a	a	a	
+a	a	a	b	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.5293608652873644
+Share opinion A	0.88
 
 Time	83
-a*	a	
-b	b	
-Entropy	1.0
-Share opinion A	0.5
+b	a	a	a	a	
+a	b	b	a	a	
+b	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.6343095546405662
+Share opinion A	0.84
 
 Time	84
-a*	a	
-b	a	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+b	b	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	b	a	b	a	
+a	a	a	a	a	
+Entropy	0.6343095546405662
+Share opinion A	0.84
 
 Time	85
-a*	a	
-b	a	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+b	a	b	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+b	b	a	a	a	
+Entropy	0.6343095546405662
+Share opinion A	0.84
 
 Time	86
-a*	a	
-b	b	
-Entropy	1.0
-Share opinion A	0.5
+b	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+a	a	a	a	a	
+b	b	a	a	a	
+Entropy	0.5293608652873644
+Share opinion A	0.88
 
 Time	87
-a*	b	
-a	b	
-Entropy	1.0
-Share opinion A	0.5
+a	a	a	b	a	
+a	b	a	a	a	
+b	a	a	b	a	
+a	a	a	a	a	
+a	a	a	a	a	
+Entropy	0.6343095546405662
+Share opinion A	0.84
 
 Time	88
-a*	a	
-a	b	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+b	a	a	a	a	
+b	a	a	a	a	
+a	b	a	b	a	
+a	b	b	a	a	
+a	a	a	a	a	
+Entropy	0.7950402793845223
+Share opinion A	0.76
 
 Time	89
-a*	a	
-b	b	
-Entropy	1.0
-Share opinion A	0.5
+a	b	a	b	a	
+a	b	a	a	b	
+a	b	a	a	a	
+a	b	a	a	a	
+a	a	a	a	a	
+Entropy	0.7950402793845223
+Share opinion A	0.76
 
 Time	90
-a*	a	
-b	b	
-Entropy	1.0
-Share opinion A	0.5
+a	a	a	b	b	
+b	a	a	a	a	
+b	a	a	a	a	
+a	a	a	b	a	
+a	a	a	a	a	
+Entropy	0.7219280948873623
+Share opinion A	0.8
 
 Time	91
-a*	a	
-b	a	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+b	a	a	a	b	
+a	a	b	a	b	
+a	a	b	a	a	
+b	a	a	a	a	
+b	b	a	a	a	
+Entropy	0.904381457724494
+Share opinion A	0.68
 
 Time	92
-a*	b	
-b	a	
-Entropy	1.0
-Share opinion A	0.5
+a	b	b	b	a	
+a	a	a	a	b	
+a	a	b	b	b	
+a	a	a	b	a	
+a	a	a	a	a	
+Entropy	0.904381457724494
+Share opinion A	0.68
 
 Time	93
-a*	b	
-b	b	
-Entropy	0.8112781244591328
-Share opinion A	0.25
+b	a	b	b	b	
+a	b	b	b	b	
+b	a	b	a	a	
+a	a	a	a	a	
+b	a	a	a	a	
+Entropy	0.9895875212220557
+Share opinion A	0.56
 
 Time	94
-a*	a	
-b	a	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+a	a	b	a	b	
+b	a	a	a	b	
+a	b	a	a	a	
+b	a	a	a	a	
+b	a	a	a	a	
+Entropy	0.8554508105601307
+Share opinion A	0.72
 
 Time	95
-a*	b	
-b	b	
-Entropy	0.8112781244591328
-Share opinion A	0.25
+b	b	a	a	a	
+a	b	b	a	a	
+b	a	a	a	a	
+a	a	a	b	a	
+a	a	a	a	a	
+Entropy	0.7950402793845223
+Share opinion A	0.76
 
 Time	96
-a*	a	
-a	b	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+b	b	a	b	a	
+b	a	a	a	a	
+a	a	b	b	a	
+a	a	a	b	a	
+a	b	a	a	a	
+Entropy	0.904381457724494
+Share opinion A	0.68
 
 Time	97
-a*	a	
-b	b	
-Entropy	1.0
-Share opinion A	0.5
+a	a	a	a	a	
+a	b	a	b	b	
+b	b	a	b	a	
+a	a	b	a	a	
+a	b	a	a	a	
+Entropy	0.904381457724494
+Share opinion A	0.68
 
 Time	98
-a*	b	
-a	b	
-Entropy	1.0
-Share opinion A	0.5
+b	a	a	a	b	
+b	a	b	a	b	
+b	a	b	a	a	
+b	b	a	a	a	
+a	b	b	a	a	
+Entropy	0.9895875212220557
+Share opinion A	0.56
 
 Time	99
-a*	a	
-a	b	
-Entropy	0.8112781244591328
-Share opinion A	0.75
+a	b	b	a	a	
+a	b	a	a	b	
+b	b	a	b	a	
+b	b	a	b	a	
+a	a	b	a	a	
+Entropy	0.9895875212220557
+Share opinion A	0.56
 
