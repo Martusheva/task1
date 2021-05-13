@@ -1,10 +1,9 @@
 import java.util.Random;
 
-class Agent {
+class Agent extends Consideration {
 	private boolean stubborn;
 	private char opinion;
 	private char method;
-	private boolean conformist;
 
 	// метод, позволяющий узнать мнение агента
 	public char getOpinion() {

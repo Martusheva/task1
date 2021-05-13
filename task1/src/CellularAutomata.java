@@ -41,10 +41,11 @@ public class CellularAutomata {
 			int countNf = Integer.parseInt(inputs.get(5).split("\t")[1]);
 			int numberOfAgent = x * y;
 
-			if (numberOfAgent != (countA + countB) || numberOfAgent != (countCf + countNf) || (countStA+countStB)>(xyStA.size()+xyStB.size())) {
+			if (numberOfAgent != (countA + countB) || numberOfAgent != (countCf + countNf)
+					|| (countStA + countStB) > (xyStA.size() + xyStB.size())) {
 				throw new IOException("The number of cells does not match the number of parameters");
 			}
-			
+
 			agents = new Agent[x][y];
 
 			// генерируем поле агентов
@@ -85,7 +86,7 @@ public class CellularAutomata {
 						countNf--;
 					}
 					boolean St = false;
-					
+
 					if (a && xyStA.contains("" + i + ";" + j)) {
 						xyStA.remove("" + i + ";" + j);
 						if (countStA != 0) {
@@ -119,7 +120,7 @@ public class CellularAutomata {
 		} catch (Exception e) {
 			// если файл не найден
 			System.out.println("no file in the directory");
-			x = 10; //ТУТ МОЖНО ЗАДАТЬ РАЗМЕР МАТРИЦЫ КОГДА НЕТ ФАЙЛА
+			x = 10; // ТУТ МОЖНО ЗАДАТЬ РАЗМЕР МАТРИЦЫ КОГДА НЕТ ФАЙЛА
 			y = 10;
 			agents = new Agent[x][y];
 			for (int i = 0; i < x; i++) {

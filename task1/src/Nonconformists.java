@@ -19,7 +19,7 @@ class Nonconformists extends Agent {
 		int W = countA + countB;
 		Random r = new Random();
 		int D = r.nextInt(W) + 1;
-		//System.out.println("D="+D+"\tW="+W);
+		// System.out.println("D="+D+"\tW="+W);
 		boolean opinionShareA = D <= countA;
 		if (opinionShareA) {
 			changeOpinion('b');

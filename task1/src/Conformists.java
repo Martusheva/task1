@@ -18,8 +18,8 @@ class Conformists extends Agent {
 	public void computeOpinion(int countA, int countB) {// c-cross, r - rim, f - full graph
 		int W = countA + countB;
 		Random r = new Random();
-		int D = r.nextInt(W)+1;
-		//System.out.println("D="+D+"\tW="+W);
+		int D = r.nextInt(W) + 1;
+		// System.out.println("D="+D+"\tW="+W);
 		boolean opinionShareA = D <= countA;
 		if (opinionShareA) {
 			changeOpinion('a');

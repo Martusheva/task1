@@ -46,7 +46,7 @@ public class Field {
 			}
 			System.out.println();
 		}
-		
+
 		System.out.println("\n" + "crest/rim/fullGrafh");
 		for (int k = 0; k < field.length; k++) {
 			for (int l = 0; l < field[0].length; l++) {
@@ -76,8 +76,8 @@ public class Field {
 			}
 		}
 	}
-	
-	//записываем в файл поле с мнением агентов, энтропию и долю мнения А
+
+	// записываем в файл поле с мнением агентов, энтропию и долю мнения А
 	public void toFile(FileOutputStream file, int iteration) throws IOException {
 		file.write(("Time\t" + iteration + "\n").getBytes());
 		for (int k = 0; k < field.length; k++) {
@@ -97,7 +97,7 @@ public class Field {
 		file.write(("Entropy\t" + entropy() + "\n").getBytes());
 		file.write(("Share opinion A\t" + getShareA() + "\n\n").getBytes());
 	}
-	
+
 	// рассчитываем долю мнения А
 	public float getShareA() {
 		float n = 0;
@@ -115,8 +115,8 @@ public class Field {
 		float share = a / n;
 		return share;
 	}
-	
-	//рассчитываем энтропию
+
+	// рассчитываем энтропию
 	public double entropy() {
 		double n = 0;
 		double a = 0;

@@ -1,9 +1,6 @@
-import java.util.Random;
-
 public class Consideration {
 
 	public static void cross(Agent agent, char[][] massive, int row, int column) {
-		boolean opinionShareA = false;
 		float[] rows = { ((float) row) + 1, ((float) row) - 1 };
 		float[] columns = { ((float) column) + 1, ((float) column) - 1 };
 		int countA = 0;
@@ -78,7 +75,7 @@ public class Consideration {
 			i = (int) (Math.random() * massive.length);
 			j = (int) (Math.random() * massive[0].length);
 		}
-		//System.out.println(""+i+"\t"+j);
+		// System.out.println(""+i+"\t"+j);
 		if (massive[i][j] == 'a') {
 			countA = 1;
 			countB = 0;
