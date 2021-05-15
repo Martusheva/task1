@@ -62,17 +62,7 @@ public class Field {
 		char[][] opinionField = getField();
 		for (int i = 0; i < opinionField.length; i++) {
 			for (int j = 0; j < opinionField.length; j++) {
-				char crf = field[i][j].getMethod();
-				// System.out.println(""+crf+"\t"+i+"\t"+j);
-				if (crf == 'c') {
-					Consideration.cross(field[i][j], opinionField, i, j);
-				}
-				if (crf == 'r') {
-					Consideration.rim(field[i][j], opinionField, i, j);
-				}
-				if (crf == 'f') {
-					Consideration.fullGraph(field[i][j], opinionField, i, j);
-				}
+					field[i][j].bypass(opinionField, i, j);
 			}
 		}
 	}

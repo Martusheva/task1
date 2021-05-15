@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Random;
 
 public class CellularAutomata {
 	public static Field create() throws IOException {
@@ -51,6 +52,7 @@ public class CellularAutomata {
 			// генерируем поле агентов
 			for (int i = 0; i < x; i++) {
 				for (int j = 0; j < y; j++) {
+					//генерируем мнение
 					boolean a = Math.random() < 0.5;
 					if (countA != 0 && countB != 0) {
 						a = Math.random() < 0.5;
@@ -67,53 +69,61 @@ public class CellularAutomata {
 					} else {
 						countB--;
 					}
-
-					boolean Cf = Math.random() < 0.5;
+					//генерируем конформист/нонконформист
+					boolean cf = Math.random() < 0.5;
 					if (countCf != 0 && countNf != 0) {
-						Cf = Math.random() < 0.5;
+						cf = Math.random() < 0.5;
 					} else {
 						if (countCf != 0) {
-							Cf = true;
+							cf = true;
 						}
 						if (countNf != 0) {
-							Cf = false;
+							cf = false;
 						}
 					}
-
-					if (Cf) {
+					if (cf) {
 						countCf--;
 					} else {
 						countNf--;
 					}
-					boolean St = false;
-
+					//генерируем упертый/не упертый
+					boolean st = false;
 					if (a && xyStA.contains("" + i + ";" + j)) {
 						xyStA.remove("" + i + ";" + j);
 						if (countStA != 0) {
-							St = true;
+							st = true;
 						} else {
-							St = false;
+							st = false;
 						}
-						if (St) {
+						if (st) {
 							countStA--;
 						}
 					}
 					if (!a && xyStB.contains("" + i + ";" + j)) {
 						xyStB.remove("" + i + ";" + j);
 						if (countStB != 0) {
-							St = true;
+							st = true;
 						} else {
-							St = false;
+							st = false;
 						}
-						if (St) {
+						if (st) {
 							countStB--;
 						}
 					}
-
-					if (Cf) {
-						agents[i][j] = new Conformists(a, St);
-					} else {
-						agents[i][j] = new Nonconformists(a, St);
+					//генерируем метод учета мнений
+					Random r = new Random();
+					char[] methods = { 'c', 'r', 'f' };
+					char method = methods[r.nextInt(methods.length)];
+					
+					//создаем объекты класса агент в зависимости от метода учета мнений
+					if (method == 'c') {
+						agents[i][j] = new Cross(a, st, cf);
+					} 
+					if (method=='r'){
+						agents[i][j] = new Rim(a, st,cf);
+					}
+					if (method == 'f') {
+						agents[i][j] = new FullGraph(a, st,cf);
 					}
 				}
 			}
@@ -125,11 +135,19 @@ public class CellularAutomata {
 			agents = new Agent[x][y];
 			for (int i = 0; i < x; i++) {
 				for (int j = 0; j < y; j++) {
-					boolean Cf = Math.random() < 0.5;
-					if (Cf) {
-						agents[i][j] = new Conformists();
-					} else {
-						agents[i][j] = new Nonconformists();
+					Random r = new Random();
+					char[] methods = { 'c', 'r', 'f' };
+					char method = methods[r.nextInt(methods.length)];
+					
+					//создаем объекты класса агент в зависимости от метода учета мнений
+					if (method == 'c') {
+						agents[i][j] = new Cross();
+					} 
+					if (method=='r'){
+						agents[i][j] = new Rim();
+					}
+					if (method == 'f') {
+						agents[i][j] = new FullGraph();
 					}
 				}
 			}

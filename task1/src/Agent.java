@@ -1,10 +1,10 @@
 import java.util.Random;
 
-class Agent extends Consideration {
+class Agent {
 	private boolean stubborn;
 	private char opinion;
-	private char method;
-
+	private boolean conformist;
+	
 	// метод, позволяющий узнать мнение агента
 	public char getOpinion() {
 		return opinion;
@@ -21,9 +21,11 @@ class Agent extends Consideration {
 
 	// метод, который позволяет получить информацию о том, каким методом агент будет
 	// учитывать мнение соседей
-	public char getMethod() {
-		return method;
+	
+	public String getMethod() {
+		return null;
 	}
+	
 
 	// метод, который позволяет получить информацию о том, является ли агент упертым
 	public String getSt() {
@@ -38,33 +40,55 @@ class Agent extends Consideration {
 	public Agent() {
 		Random r = new Random();
 		char[] opinions = { 'a', 'b' };
-		char[] methods = { 'c', 'r', 'f' };
 		opinion = opinions[r.nextInt(opinions.length)];
 		stubborn = Math.random() < 0.5;
-		method = methods[r.nextInt(methods.length)];
+		conformist = Math.random() < 0.5;
 	}
 
 	// создание агента, исходя из файла
-	public Agent(boolean a, boolean st) {
-		Random r = new Random();
-		char[] methods = { 'c', 'r', 'f' };
-		method = methods[r.nextInt(methods.length)];
+	public Agent(boolean a, boolean st,boolean cf) {
 		if (a) {
 			opinion = 'a';
 		} else {
 			opinion = 'b';
 		}
 		stubborn = st;
+		conformist = cf;
 	}
 
 	// узнаем, является л агент конформистом
 	public String isConformist() {
-		return null;
+		if (conformist) {
+			return "Conformist";
+		} else {
+			return "Nonconformist";
+		}
 	}
 
 	// изменение мнения исходя из учтенных мнений
 	public void computeOpinion(int countA, int countB) {
+		int W = countA + countB;
+		Random r = new Random();
+		int D = r.nextInt(W) + 1;
+		// System.out.println("D="+D+"\tW="+W);
+		boolean opinionShareA = D <= countA;
+		if (conformist) {
+			if (opinionShareA) {
+				changeOpinion('a');
+			} else {
+				changeOpinion('b');
+			}
+		} else {
+			if (opinionShareA) {
+				changeOpinion('b');
+			} else {
+				changeOpinion('a');
+			}
+		}
+	}
 
+	public void bypass(char[][] opinionField, int i, int j) {
+		
 	}
 
 }
